@@ -1,0 +1,21 @@
+import {
+  SELECTED_CATEGORY,
+  SELECTED_ITEM,
+  SET_INPUT_FIELD,
+  SET_SELECTED_FIELD,
+  SET_SELECTED_CHOICE,
+  SET_SELECTED_CREDIT_CARD_INPUT,
+  SET_SELECTED_CREDIT_CARD_INPUT_CHOOSEN,
+  ALL_CATEGORY,
+  ALL_PRODUCTS,
+  SET_CURRENT_USER,
+  USER_UPDATED,
+  DELETED_USER_UPDATED
+} from './actionTypes';
+
+export const isLoggedIn = (Products: any) => {
+  return {
+    type: ALL_PRODUCTS,
+    payload: Products,
+  };
+};
